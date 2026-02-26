@@ -13,7 +13,6 @@
   color: var(--text-color, #F1B2CE);
 }
 
-/* Шапка */
 .header {
   position: relative;
   display: grid;
@@ -113,7 +112,6 @@
   font-weight: bold;
 }
 
-/* Основной контент */
 .main {
   display: flex;
   flex-direction: column;
@@ -121,7 +119,6 @@
   padding: 40px var(--gap);
 }
 
-/* Секции */
 .section {
   display: grid;
   gap: var(--gap);
@@ -142,7 +139,6 @@
   gap: var(--gap);
 }
 
-/* Карточки */
 .card {
   display: flex;
   flex-direction: column;
@@ -167,14 +163,12 @@
   border: 1px solid currentColor;
 }
 
-/* Декоративный класс для текста на цветном фоне */
 .title-decor {
   background-color: var(--accent-color, #FF0070);
   color: var(--subtitle-text-color, #000028);
   font-weight: bold;
 }
 
-/* Галерея */
 .gallery {
   display: flex;
   flex-direction: column;
@@ -198,7 +192,6 @@
   object-position: center;
 }
 
-/* Футер */
 .footer {
   position: relative;
   display: grid;
@@ -213,7 +206,6 @@
   text-shadow: 4px 4px 0 var(--title-shadow, #FF0070);
 }
 
-/* Адаптив для планшетов */
 @media (width >= 768px) {
   :root {
     --gap: 20px;
@@ -279,7 +271,6 @@
   }
 }
 
-/* Адаптив для десктопов */
 @media (width >= 1024px) {
   .section--what .section__content {
     grid-template-columns: repeat(3, 1fr);
